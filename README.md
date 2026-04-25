@@ -1,6 +1,6 @@
 ## Overview
 
-This project applies supervised machine learning to a real-world petrophysical dataset loaded from a LAS file. Using well log measurements — including Gamma Ray (GR), Sonic (DT), Neutron Porosity (NPHI), Caliper (CALI), and Resistivity (RESD, LLS) — a Linear Regression model was trained to predict Bulk Density (RHOB) across 23,000+ depth samples. The workflow covers data ingestion with `lasio`, exploratory data analysis, missing value handling, feature scaling with `StandardScaler`, model training via a `sklearn` Pipeline, and performance evaluation using MAE, RMSE, and R². The model was further applied to fill in missing RHOB values across flagged depth intervals.
+This project applies supervised machine learning to a real-world petrophysical dataset loaded from a LAS file. Using well log measurements, including Gamma Ray (GR), Sonic (DT), Neutron Porosity (NPHI), Caliper (CALI), and Resistivity (RESD, LLS). A Linear Regression model was trained to predict Bulk Density (RHOB) across 23,000+ depth samples. The workflow covers data ingestion with `lasio`, exploratory data analysis, missing value handling, feature scaling with `StandardScaler`, model training via a `sklearn` Pipeline, and performance evaluation using MAE, RMSE, and R². The model was further applied to fill in missing RHOB values across flagged depth intervals.
 
 ## Dataset
 
