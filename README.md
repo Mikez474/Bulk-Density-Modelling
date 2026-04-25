@@ -27,11 +27,11 @@ This project applies supervised machine learning to a real-world petrophysical d
 
 ## Workflow
 
-1. **Data Loading** — LAS file parsed using the `lasio` library and converted to a Pandas DataFrame
-2. **Exploratory Data Analysis (EDA)** — Statistical summaries, distribution plots, and correlation analysis
-3. **Data Preprocessing** — Handling missing values, feature scaling with `StandardScaler`
-4. **Model Training** — A Linear Regression model trained within a `Pipeline` with `StandardScaler` for feature scaling
-5. **Model Evaluation** — Performance assessed using:
+1. **Data Loading**: LAS file parsed using the `lasio` library and converted to a Pandas DataFrame
+2. **Exploratory Data Analysis (EDA)**: Statistical summaries, distribution plots, and correlation analysis
+3. **Data Preprocessing**: Handling missing values, feature scaling with `StandardScaler`
+4. **Model Training**: A Linear Regression model trained within a `Pipeline` with `StandardScaler` for feature scaling
+5. **Model Evaluation**: Performance assessed using:
    - Mean Absolute Error (MAE)
    - Root Mean Squared Error (RMSE)
    - Coefficient of Determination (R²)
